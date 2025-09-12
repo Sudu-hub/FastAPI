@@ -5,7 +5,7 @@ class EmployeeBase(BaseModel):
     Name : str
     email : EmailStr
     
-class EmplyeeCreate(EmployeeBase):
+class EmployeeCreate(EmployeeBase):
     email: Optional[EmailStr]
 
 class EmployeeUpdate(EmployeeBase):
